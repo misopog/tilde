@@ -38,20 +38,8 @@
   };
 
   const COMMANDS = new Map([
-    ['a', { name: 'Chat', url: 'https://chat.openai.com' }],
-    ['b', { name: 'Dribbble', url: 'https://dribbble.com/shots/recent' }],
-    ['c', { name: 'Calendar', url: 'https://calendar.google.com' }],
-    [
-      'd',
-      {
-        name: 'Drive',
-        url: 'https://drive.google.com/drive/u/0/my-drive',
-      },
-    ],
-    ['f', { name: 'Figma', url: 'https://www.figma.com' }],
+    ['a', { name: 'Chat', url: 'https://chatgpt.com' }],
     ['g', { name: 'GitHub', url: 'https://github.com' }],
-    ['k', { name: 'Keep', url: 'https://keep.google.com' }],
-    ['n', { name: 'Notion', url: 'https://www.notion.so' }],
     [
       'p',
       {
@@ -73,21 +61,6 @@
         url: 'https://reddit.com',
       },
     ],
-    ['s', { name: 'Supabase', url: 'https://supabase.com/dashboard/projects' }],
-    ['t', { name: 'Translate', url: 'https://www.deepl.com/translator' }],
-    ['v', { name: 'Vercel', url: 'https://vercel.com/dashboard' }],
-    [
-      'x',
-      {
-        name: 'xvvvyz',
-        suggestions: [
-          'jelly.xvvvyz.xyz',
-          'torrent.xvvvyz.xyz',
-          'proxy.xvvvyz.xyz',
-        ],
-        url: 'https://pomodoro.xvvvyz.xyz',
-      },
-    ],
     [
       'y',
       {
@@ -105,6 +78,14 @@
         url: 'http://localhost:3000',
       },
     ],
+    [
+      '4',
+      {
+        name: '4chan',
+        url: '4chan.org',
+        suggestions: ['4 g', '4 pol', '4 k', '4 b'],
+        searchTemplate: ':{}',
+      },
   ]);
 </script>
 
